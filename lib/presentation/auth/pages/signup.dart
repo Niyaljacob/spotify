@@ -56,7 +56,7 @@ class SignupPage extends StatelessWidget {
 
   Widget _fullNameField(BuildContext context){
     return TextField(
-      decoration: InputDecoration(
+      decoration: const InputDecoration(
         hintText: 'Full Name'
       ).applyDefaults(Theme.of(context).inputDecorationTheme),
     );
@@ -64,7 +64,7 @@ class SignupPage extends StatelessWidget {
 
   Widget _emailField(BuildContext context){
     return TextField(
-      decoration: InputDecoration(
+      decoration: const InputDecoration(
         hintText: 'Enter email'
       ).applyDefaults(Theme.of(context).inputDecorationTheme),
     );
@@ -72,7 +72,7 @@ class SignupPage extends StatelessWidget {
 
   Widget _passwordField(BuildContext context){
     return TextField(
-      decoration: InputDecoration(
+      decoration: const InputDecoration(
         hintText: 'Password'
       ).applyDefaults(Theme.of(context).inputDecorationTheme),
     );
